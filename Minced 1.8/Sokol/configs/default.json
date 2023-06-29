@@ -1,0 +1,796 @@
+{
+  "Features": {
+    "MinecraftOptimizer": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "del entity": false
+      }
+    },
+    "InventoryManager": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Sorting Delay": 1.0,
+        "Clear Inventory": true,
+        "Throw Blocks": false,
+        "Only Inventory": true
+      }
+    },
+    "ElytraLeaveSunrise": {
+      "state": false,
+      "keyIndex": 0
+    },
+    "MiddleClickFriend": {
+      "state": true,
+      "keyIndex": 0
+    },
+    "FastWorldLoading": {
+      "state": true,
+      "keyIndex": 0
+    },
+    "DamageParticles": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Particles Mode": "Text",
+        "Particle Mode": "Spell",
+        "Particle Multiplier": 5.0,
+        "Delete After": 7.0,
+        "Color on Hit": -65536,
+        "Color on Heal": -16711936
+      }
+    },
+    "Sword Translate": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Only Aura": false,
+        "Animation Mode": "Minced",
+        "Spin Speed": 4.0,
+        "Swing Speed": 8.0,
+        "Item360": false,
+        "Item360 Mode": "Horizontal",
+        "Item360 Hand": "All",
+        "Stop on hit": true,
+        "Item360 Speed": 8.0
+      }
+    },
+    "AntiArmorStand": {
+      "state": true,
+      "keyIndex": 0
+    },
+    "AntiLagMachine": {
+      "state": true,
+      "keyIndex": 0
+    },
+    "FlyingParticles": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Particles Mode": "Astolfo",
+        "Particles Color": -1
+      }
+    },
+    "ShulkerViewer": {
+      "state": true,
+      "keyIndex": 0
+    },
+    "DamageSpeed": {
+      "state": false,
+      "keyIndex": 0
+    },
+    "WorldFeatures": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Snow": true,
+        "Weather": -1,
+        "World Color": false,
+        "Color World": -1,
+        "Ambience": false,
+        "Ambience Mode": "Day",
+        "Ambience Speed": 20.0
+      }
+    },
+    "ShieldBreaker": {
+      "state": true,
+      "keyIndex": 0
+    },
+    "CustomModel": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Model Mode": "Rabbit",
+        "Only Me": true,
+        "Friends": false
+      }
+    },
+    "AutoTPAccept": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Friends Only": true,
+        "Delay": 300.0
+      }
+    },
+    "NameProtect": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Other Names": false,
+        "Friends Spoof": false,
+        "Tab Spoof": false,
+        "Scoreboard Spoof": true
+      }
+    },
+    "NoJumpDelay": {
+      "state": true,
+      "keyIndex": 0
+    },
+    "MotionGraph": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Smooth": true,
+        "Background": true,
+        "Limit Height": 20.0
+      }
+    },
+    "NoSlowDown": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "NoSlow Mode": "Matrix",
+        "Percentage": 100.0
+      }
+    },
+    "Notifications": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Notification Mode": "Rect",
+        "Module State": true
+      }
+    },
+    "DeathCoords": {
+      "state": true,
+      "keyIndex": 0
+    },
+    "ChestStealer": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Steal Speed": 10.0,
+        "Drop Items": false,
+        "No Move Swap": false
+      }
+    },
+    "TargetStrafe": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Target radius": 2.4,
+        "Target speed": 0.23,
+        "Damage boost": false,
+        "Damage boost value": 0.5,
+        "Autojump": true
+      }
+    },
+    "ItemScroller": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Scroller Delay": 80.0
+      }
+    },
+    "ItemPhysics": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Physics Speed": 0.5
+      }
+    },
+    "WaterSpeed": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Potion Check": false,
+        "Speed Amount": 0.4
+      }
+    },
+    "JumpCircles": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "JumpCircle Mode": "Shader",
+        "JumpCircle Color": -603390475,
+        "Circles Size": 1.0,
+        "Circles Scale": 0.3,
+        "Circles Speed": 1.0
+      }
+    },
+    "AutoGApple": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Health Amount": 14.0
+      }
+    },
+    "ChatHistory": {
+      "state": true,
+      "keyIndex": 0
+    },
+    "AutoCrystal": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Crystal Range": 6.0,
+        "Crystal Speed": 0.0
+      }
+    },
+    "Scoreboard": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "No Scoreboard": true
+      }
+    },
+    "AutoPotion": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Delay": 500.0,
+        "Only Ground": true,
+        "KT Only": false
+      }
+    },
+    "AttackAura": {
+      "state": true,
+      "keyIndex": 37,
+      "Settings": {
+        "Rotation Mode": "Matrix",
+        "Type Mode": "Single",
+        "Priority Mode": "Distance",
+        "Click Mode": "1.9",
+        "Min APS": 12.0,
+        "Max APS": 13.0,
+        "FOV": 180.0,
+        "Attack CoolDown": 0.85,
+        "AttackRange": 6.0,
+        "Pre Aim Range": 0.0,
+        "RayCast": true,
+        "Yaw Random": 1.6,
+        "Pitch Random": 1.6,
+        "Pitch Head": 0.35,
+        "Static Pitch": false,
+        "Walls": true,
+        "Only Critical": true,
+        "Space Only": false,
+        "Check Crystal": false,
+        "Distance to Crystal": 3.0,
+        "Critical Fall Distance": 0.2,
+        "ShieldBreaker": true,
+        "Break Notifications": true,
+        "ShieldFixer": false,
+        "Fixer Delay": 150.0,
+        "Shield Desync": false
+      }
+    },
+    "KeepSprint": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Set Sprinting": true,
+        "Keep Speed": 1.0
+      }
+    },
+    "ViewModel": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "RightX": 1.0,
+        "RightY": -0.1,
+        "RightZ": -2.0,
+        "LeftX": 0.8,
+        "LeftY": -0.1,
+        "LeftZ": -1.0
+      }
+    },
+    "ModuleList": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "ArrayList Color": "Custom",
+        "One Color": -191488,
+        "Two Color": -16283396,
+        "No Visual": true,
+        "Only Binds": false
+      }
+    },
+    "BetterChat": {
+      "state": true,
+      "keyIndex": 0
+    },
+    "AutoTotem": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Swap Back": true,
+        "Swap back delay": 100.0,
+        "Health Amount": 3.5,
+        "Only Inventory": false,
+        "Count Totem": true,
+        "Check Fall": true,
+        "Fall Distance": 15.0,
+        "Check Crystal": true,
+        "Distance to Crystal": 6.0,
+        "Check Tnt": true,
+        "Distance to Tnt": 6.0
+      }
+    },
+    "AutoArmor": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Equip Delay": 1.0,
+        "Open Inventory": true
+      }
+    },
+    "Name Tags": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Show Armor": true,
+        "Show Potions": true
+      }
+    },
+    "AutoSprint": {
+      "state": true,
+      "keyIndex": 0
+    },
+    "Click Pearl": {
+      "state": true,
+      "keyIndex": 0
+    },
+    "NoInteract": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Armor Stand": true,
+        "Chest": false,
+        "Doors": true,
+        "Hopper": true,
+        "Buttons": true,
+        "Dispenser": true,
+        "Note Block": true,
+        "Crafting Table": true,
+        "TrapDoor": true,
+        "Furnace": true,
+        "Gate": true,
+        "Anvil": true,
+        "Lever": true
+      }
+    },
+    "TriggerBot": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Trigger Range": 4.0,
+        "Players": true,
+        "Mobs": false,
+        "Only Crits": false,
+        "Fall Distance": 0.2
+      }
+    },
+    "Bow Spam": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Bow Delay": 1.0
+      }
+    },
+    "TargetHUD": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "TargetHUD Mode": "Celestial"
+      }
+    },
+    "HighJump": {
+      "state": false,
+      "keyIndex": 0
+    },
+    "AirStealer": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "AutoDisable": true
+      }
+    },
+    "EntityESP": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "ESP Mode": "2D",
+        "Border Mode": "Box",
+        "Color Box Mode": "Client",
+        "Color Health Mode": "Client",
+        "Health Border Color": -1,
+        "Border Rect": true,
+        "Full Box": false,
+        "Health Rect": true,
+        "Health Details": true,
+        "Render Armor": true,
+        "ESP Color": -1,
+        "Friend Highlight": false,
+        "Mob ESP": false
+      }
+    },
+    "FullBright": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "FullBright Mode": "Gamma"
+      }
+    },
+    "NoRender": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Rain": true,
+        "ArmorStand": false,
+        "HurtCam": true,
+        "Camera Clip": true,
+        "AntiTotemAnimation": false,
+        "NoFireOverlay": false,
+        "Blindness": true,
+        "NoBossBar": false
+      }
+    },
+    "Crosshair": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Crosshair Mode": "Circle",
+        "Dynamic": false,
+        "Dynamic Gap": 3.0,
+        "Gap": 2.0,
+        "Crosshair Color": -1,
+        "Width": 3.0,
+        "Length": 3.0,
+        "Radius": 3.0
+      }
+    },
+    "BlockESP": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "ESP Outline": false,
+        "Chest": true,
+        "Ender Chest": false,
+        "Spawner": false,
+        "Shulker": false,
+        "Bed": false,
+        "Minecart": false,
+        "Minecart Color": -1,
+        "Chest Color": -1168129,
+        "EnderChest Color": -1168129,
+        "Spawner Color": -1168129,
+        "Shulker Color": -1168129,
+        "Bed Color": -1168129,
+        "Client Colors": false
+      }
+    },
+    "ChinaHat": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Astolfo": false
+      }
+    },
+    "NoRotate": {
+      "state": true,
+      "keyIndex": 0
+    },
+    "PearlESP": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Global Color": -1,
+        "TriangleESP": true,
+        "Triangle Mode": "Custom",
+        "Triangle Color": -1,
+        "ESP": true,
+        "Tracers": true
+      }
+    },
+    "Click GUI": {
+      "state": false,
+      "keyIndex": 54,
+      "Settings": {
+        "Gui Color": -16313092,
+        "Gui Color 2": -259574,
+        "Blur": false,
+        "Shadow": true
+      }
+    },
+    "Baritone": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Randomize": true,
+        "Value": 0.5,
+        "Auto Trash": true,
+        "No Back": true,
+        "Inv Full Leave": false
+      }
+    },
+    "AutoTool": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Swap Back": true,
+        "Save Item": true,
+        "Silent Switch": true
+      }
+    },
+    "FogColor": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Fog Color": "Rainbow",
+        "Fog Distance": 0.7,
+        "Custom Fog": -1
+      }
+    },
+    "ElytraFix": {
+      "state": false,
+      "keyIndex": 0
+    },
+    "ElytraFly": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Mode": "Hard"
+      }
+    },
+    "FreeCam": {
+      "state": false,
+      "keyIndex": 22,
+      "Settings": {
+        "Flying Speed": 1.0,
+        "ReallyWorld": true,
+        "Disable on damage": false
+      }
+    },
+    "ItemESP": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "ItemESP Color": -1
+      }
+    },
+    "CDApple": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Cooldown": 3.0
+      }
+    },
+    "GuiWalk": {
+      "state": true,
+      "keyIndex": 0
+    },
+    "Velocity": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Velocity Mode": "Packet"
+      }
+    },
+    "AntiFlag": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Auto Disable": true
+      }
+    },
+    "AirJump": {
+      "state": false,
+      "keyIndex": 0
+    },
+    "NoPush": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Entity": true,
+        "Water": true,
+        "Blocks": true
+      }
+    },
+    "KTLeave": {
+      "state": false,
+      "keyIndex": 200
+    },
+    "AntiBot": {
+      "state": true,
+      "keyIndex": 0
+    },
+    "AntiAFK": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Spin": true,
+        "Random SMS": true,
+        "Send Delay": 1.0,
+        "Jump": true
+      }
+    },
+    "Tracers": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Tracers Color": -1,
+        "Friend Highlight": true,
+        "Friend Color": -16711936,
+        "See Only": false,
+        "Only Player": true,
+        "Tracers Width": 1.5
+      }
+    },
+    "Chams": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Chams Mode": "Fill",
+        "Chams Color": -1,
+        "Client Colored": false,
+        "Chams Aplha": 0.5,
+        "Cosmo Speed": 1.0
+      }
+    },
+    "HitBox": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "HitBox Size": 0.25
+      }
+    },
+    "Spider": {
+      "state": false,
+      "keyIndex": 44,
+      "Settings": {
+        "Spider Mode": "Matrix",
+        "Spider Speed": 1.0
+      }
+    },
+    "XCarry": {
+      "state": false,
+      "keyIndex": 0
+    },
+    "NoClip": {
+      "state": false,
+      "keyIndex": 25,
+      "Settings": {
+        "NoClip Mode": "Vanilla",
+        "Custom Speed": false,
+        "XZ Speed": 1.0
+      }
+    },
+    "Speed": {
+      "state": false,
+      "keyIndex": 48,
+      "Settings": {
+        "Speed Mode": "Matrix New"
+      }
+    },
+    "Strafe": {
+      "state": false,
+      "keyIndex": 49,
+      "Settings": {
+        "Strafe Mode": "Matrix",
+        "Strafe Speed": 0.2
+      }
+    },
+    "NoFall": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "NoFall Mode": "Vanilla"
+      }
+    },
+    "Flight": {
+      "state": false,
+      "keyIndex": 28,
+      "Settings": {
+        "Mode": "Matrix Glide",
+        "Motion Y": 0.05,
+        "Speed": 5.0
+      }
+    },
+    "Timer": {
+      "state": false,
+      "keyIndex": 47,
+      "Settings": {
+        "Timer Amount": 2.0,
+        "Smart": false
+      }
+    },
+    "Jesus": {
+      "state": false,
+      "keyIndex": 45,
+      "Settings": {
+        "Jesus Mode": "Matrix",
+        "Speed": 10.0,
+        "NCP Speed": 0.25,
+        "Use Timer": false,
+        "TimerSpeed": 1.05,
+        "SpeedCheck": false,
+        "Auto Water Down": false,
+        "Auto Motion Stop": true,
+        "Auto Water Up": false
+      }
+    },
+    "Trails": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "Trails Mode": "Line",
+        "Trails Color": "Astolfo",
+        "One Color": -1,
+        "Two Color": -1,
+        "Timeout": true,
+        "Time": 15.0,
+        "Saturation": 0.7,
+        "Remove Ticks": 100.0,
+        "Alpha Trails": 255.0,
+        "Smooth Ending": true,
+        "Only Me": true
+      }
+    },
+    "Nimb": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Nimb Color": "Astolfo",
+        "One Color": -1,
+        "Two Color": -1,
+        "Saturation": 0.7
+      }
+    },
+    "XRay": {
+      "state": false,
+      "keyIndex": 0,
+      "Settings": {
+        "Render Distance": 35.0,
+        "Bypass": false,
+        "CheckSpeed": 4.0,
+        "Radius XZ": 20.0,
+        "Radius Y": 6.0,
+        "Diamond": true,
+        "Gold": false,
+        "Iron": false,
+        "Emerald": false,
+        "Redstone": false,
+        "Lapis": false,
+        "Coal": false
+      }
+    },
+    "Hud": {
+      "state": true,
+      "keyIndex": 0,
+      "Settings": {
+        "WaterMark": true,
+        "WaterMark Mode": "Celestial",
+        "Potion Info": false,
+        "Armor Status": true,
+        "Coordinates": true
+      }
+    },
+    "GPS": {
+      "state": true,
+      "keyIndex": 0
+    }
+  }
+}
