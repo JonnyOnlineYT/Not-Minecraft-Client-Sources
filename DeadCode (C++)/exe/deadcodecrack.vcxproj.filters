@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="resources">
+      <UniqueIdentifier>{8fe062b3-aeed-408c-a5a4-7c4e7f1ab325}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="deadcodecrack.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\Combat.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\Configs.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\Console.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\Exploit.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\Friends.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\Movement.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\Other.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\Player.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\Render.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\World.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Add.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Arrows.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Arrows2.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Arrows-Run.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Avatar.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Avatar-Circle.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Close.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\ComboBox-Arrow1.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\ComboBox-Arrow2.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Delete.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Friend.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Grid.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Load.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Off.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\On.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Profile-Style.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Save.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Search.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Setting-Disabled.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Setting-Enabled.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\Combat.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\Configs.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\Console.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\Exploit.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\Friends.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\Movement.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\Other.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\Player.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\Render.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\World.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\Combat.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\Configs.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\Console.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\Exploit.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\Friends.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\Movement.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\Other.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\Render.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\Player.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\World.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Shaders\antirgb.shader">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Shaders\glitch.shader">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Shaders\round-rect.shader">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Shaders\shadow.shader">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\Add.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Shaders\antirgb.shader">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\Arrows.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\Arrows2.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\Arrows-Run.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\Avatar.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\Avatar-Circle.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\Close.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Background\Combat.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Selected\Combat.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Unselected\Combat.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\ComboBox-Arrow1.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\ComboBox-Arrow2.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Background\Configs.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Selected\Configs.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Unselected\Configs.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Background\Console.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Selected\Console.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Unselected\Console.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\d64.dll">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\Delete.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\e64.dll">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Background\Exploit.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Selected\Exploit.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Unselected\Exploit.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\Friend.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Background\Friends.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Selected\Friends.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Unselected\Friends.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Shaders\glitch.shader">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\Grid.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\l64.dll">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\Load.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Background\Movement.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Selected\Movement.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Unselected\Movement.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\Off.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\On.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Background\Other.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Selected\Other.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Unselected\Other.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Background\Player.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Selected\Player.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Unselected\Player.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\Profile-Style.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Background\Render.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Selected\Render.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Unselected\Render.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Shaders\round-rect.shader">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\Save.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\Search.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\Setting-Disabled.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Other\Setting-Enabled.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Shaders\shadow.shader">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Background\World.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Selected\World.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\Images\Unselected\World.image">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\c64.dll">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\libcrypto-1_1-x64.dll">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="C:\DeadCode\Libs\libssl-1_1-x64.dll">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>

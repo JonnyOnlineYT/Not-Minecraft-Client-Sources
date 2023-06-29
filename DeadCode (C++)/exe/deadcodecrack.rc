@@ -1,0 +1,187 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TXT
+//
+
+IDR_TXT1                TXT                     "C:\\DeadCode\\Libs\\Images\\Background\\Combat.image"
+
+IDR_TXT2                TXT                     "C:\\DeadCode\\Libs\\Images\\Background\\Configs.image"
+
+IDR_TXT3                TXT                     "C:\\DeadCode\\Libs\\Images\\Background\\Console.image"
+
+IDR_TXT4                TXT                     "C:\\DeadCode\\Libs\\Images\\Background\\Exploit.image"
+
+IDR_TXT5                TXT                     "C:\\DeadCode\\Libs\\Images\\Background\\Friends.image"
+
+IDR_TXT6                TXT                     "C:\\DeadCode\\Libs\\Images\\Background\\Movement.image"
+
+IDR_TXT7                TXT                     "C:\\DeadCode\\Libs\\Images\\Background\\Other.image"
+
+IDR_TXT8                TXT                     "C:\\DeadCode\\Libs\\Images\\Background\\Player.image"
+
+IDR_TXT9                TXT                     "C:\\DeadCode\\Libs\\Images\\Background\\Render.image"
+
+IDR_TXT10               TXT                     "C:\\DeadCode\\Libs\\Images\\Background\\World.image"
+
+IDR_TXT11               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\Add.image"
+
+IDR_TXT12               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\Arrows.image"
+
+IDR_TXT13               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\Arrows2.image"
+
+IDR_TXT14               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\Arrows-Run.image"
+
+IDR_TXT15               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\Avatar.image"
+
+IDR_TXT16               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\Avatar-Circle.image"
+
+IDR_TXT17               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\Close.image"
+
+IDR_TXT18               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\ComboBox-Arrow1.image"
+
+IDR_TXT19               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\ComboBox-Arrow2.image"
+
+IDR_TXT20               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\Delete.image"
+
+IDR_TXT21               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\Friend.image"
+
+IDR_TXT22               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\Grid.image"
+
+IDR_TXT23               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\Load.image"
+
+IDR_TXT24               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\Off.image"
+
+IDR_TXT25               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\On.image"
+
+IDR_TXT26               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\Profile-Style.image"
+
+IDR_TXT27               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\Save.image"
+
+IDR_TXT28               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\Search.image"
+
+IDR_TXT29               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\Setting-Disabled.image"
+
+IDR_TXT30               TXT                     "C:\\DeadCode\\Libs\\Images\\Other\\Setting-Enabled.image"
+
+IDR_TXT31               TXT                     "C:\\DeadCode\\Libs\\Images\\Selected\\Combat.image"
+
+IDR_TXT32               TXT                     "C:\\DeadCode\\Libs\\Images\\Selected\\Configs.image"
+
+IDR_TXT33               TXT                     "C:\\DeadCode\\Libs\\Images\\Selected\\Console.image"
+
+IDR_TXT34               TXT                     "C:\\DeadCode\\Libs\\Images\\Selected\\Exploit.image"
+
+IDR_TXT35               TXT                     "C:\\DeadCode\\Libs\\Images\\Selected\\Friends.image"
+
+IDR_TXT36               TXT                     "C:\\DeadCode\\Libs\\Images\\Selected\\Movement.image"
+
+IDR_TXT37               TXT                     "C:\\DeadCode\\Libs\\Images\\Selected\\Other.image"
+
+IDR_TXT38               TXT                     "C:\\DeadCode\\Libs\\Images\\Selected\\Player.image"
+
+IDR_TXT39               TXT                     "C:\\DeadCode\\Libs\\Images\\Selected\\Render.image"
+
+IDR_TXT40               TXT                     "C:\\DeadCode\\Libs\\Images\\Selected\\World.image"
+
+IDR_TXT41               TXT                     "C:\\DeadCode\\Libs\\Images\\Unselected\\Combat.image"
+
+IDR_TXT42               TXT                     "C:\\DeadCode\\Libs\\Images\\Unselected\\Configs.image"
+
+IDR_TXT43               TXT                     "C:\\DeadCode\\Libs\\Images\\Unselected\\Console.image"
+
+IDR_TXT44               TXT                     "C:\\DeadCode\\Libs\\Images\\Unselected\\Exploit.image"
+
+IDR_TXT45               TXT                     "C:\\DeadCode\\Libs\\Images\\Unselected\\Friends.image"
+
+IDR_TXT46               TXT                     "C:\\DeadCode\\Libs\\Images\\Unselected\\Movement.image"
+
+IDR_TXT47               TXT                     "C:\\DeadCode\\Libs\\Images\\Unselected\\Other.image"
+
+IDR_TXT48               TXT                     "C:\\DeadCode\\Libs\\Images\\Unselected\\Player.image"
+
+IDR_TXT49               TXT                     "C:\\DeadCode\\Libs\\Images\\Unselected\\Render.image"
+
+IDR_TXT50               TXT                     "C:\\DeadCode\\Libs\\Images\\Unselected\\World.image"
+
+IDR_TXT51               TXT                     "C:\\DeadCode\\Libs\\Shaders\\antirgb.shader"
+
+IDR_TXT52               TXT                     "C:\\DeadCode\\Libs\\Shaders\\glitch.shader"
+
+IDR_TXT53               TXT                     "C:\\DeadCode\\Libs\\Shaders\\round-rect.shader"
+
+IDR_TXT54               TXT                     "C:\\DeadCode\\Libs\\Shaders\\shadow.shader"
+
+IDR_TXT55               TXT                     "C:\\DeadCode\\Libs\\c64.dll"
+
+IDR_TXT56               TXT                     "C:\\DeadCode\\Libs\\d64.dll"
+
+IDR_TXT57               TXT                     "C:\\DeadCode\\Libs\\e64.dll"
+
+IDR_TXT58               TXT                     "C:\\DeadCode\\Libs\\l64.dll"
+
+IDR_TXT59               TXT                     "C:\\DeadCode\\Libs\\libcrypto-1_1-x64.dll"
+
+IDR_TXT60               TXT                     "C:\\DeadCode\\Libs\\libssl-1_1-x64.dll"
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

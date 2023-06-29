@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "infinity",
+  "version": "1.0.7",
+
+  "name": "Infinity",
+  "description": "Minecraft Utility Modification",
+  "authors": [
+    "Spray",
+    "GishReloaded"
+  ],
+  "contact": {
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/infinity/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.spray.infinity.main.MainInitialize"
+    ]
+  },
+  "mixins": [
+    "infinity.mixins.json"
+  ],
+
+  "depends": {
+    "java": ">=16",
+    "minecraft": ">=1.17.1"
+  }
+}

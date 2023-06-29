@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{2cb98726-ce87-41ee-a7b9-b0bc709064c8}</ProjectGuid>
+    <RootNamespace>deadcodecrack</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\boost_1_79_0;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\boost_1_79_0;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\boost_1_79_0;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="deadcodecrack.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\Combat.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\Configs.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\Console.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\Exploit.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\Friends.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\Movement.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\Other.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\Player.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\Render.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Background\World.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Add.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Arrows-Run.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Arrows.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Arrows2.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Avatar-Circle.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Avatar.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Close.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\ComboBox-Arrow1.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\ComboBox-Arrow2.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Delete.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Friend.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Grid.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Load.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Off.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\On.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Profile-Style.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Save.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Search.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Setting-Disabled.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Other\Setting-Enabled.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\Combat.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\Configs.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\Console.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\Exploit.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\Friends.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\Movement.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\Other.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\Player.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\Render.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Selected\World.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\Combat.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\Configs.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\Console.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\Exploit.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\Friends.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\Movement.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\Other.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\Player.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\Render.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Images\Unselected\World.image" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Shaders\antirgb.shader" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Shaders\glitch.shader" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Shaders\round-rect.shader" />
+    <None Include="..\..\backup2022\диск с\DeadCode\Libs\Shaders\shadow.shader" />
+    <None Include="C:\DeadCode\Libs\c64.dll" />
+    <None Include="C:\DeadCode\Libs\d64.dll" />
+    <None Include="C:\DeadCode\Libs\e64.dll" />
+    <None Include="C:\DeadCode\Libs\Images\Background\Combat.image" />
+    <None Include="C:\DeadCode\Libs\Images\Background\Configs.image" />
+    <None Include="C:\DeadCode\Libs\Images\Background\Console.image" />
+    <None Include="C:\DeadCode\Libs\Images\Background\Exploit.image" />
+    <None Include="C:\DeadCode\Libs\Images\Background\Friends.image" />
+    <None Include="C:\DeadCode\Libs\Images\Background\Movement.image" />
+    <None Include="C:\DeadCode\Libs\Images\Background\Other.image" />
+    <None Include="C:\DeadCode\Libs\Images\Background\Player.image" />
+    <None Include="C:\DeadCode\Libs\Images\Background\Render.image" />
+    <None Include="C:\DeadCode\Libs\Images\Background\World.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\Add.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\Arrows-Run.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\Arrows.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\Arrows2.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\Avatar-Circle.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\Avatar.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\Close.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\ComboBox-Arrow1.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\ComboBox-Arrow2.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\Delete.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\Friend.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\Grid.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\Load.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\Off.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\On.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\Profile-Style.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\Save.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\Search.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\Setting-Disabled.image" />
+    <None Include="C:\DeadCode\Libs\Images\Other\Setting-Enabled.image" />
+    <None Include="C:\DeadCode\Libs\Images\Selected\Combat.image" />
+    <None Include="C:\DeadCode\Libs\Images\Selected\Configs.image" />
+    <None Include="C:\DeadCode\Libs\Images\Selected\Console.image" />
+    <None Include="C:\DeadCode\Libs\Images\Selected\Exploit.image" />
+    <None Include="C:\DeadCode\Libs\Images\Selected\Friends.image" />
+    <None Include="C:\DeadCode\Libs\Images\Selected\Movement.image" />
+    <None Include="C:\DeadCode\Libs\Images\Selected\Other.image" />
+    <None Include="C:\DeadCode\Libs\Images\Selected\Player.image" />
+    <None Include="C:\DeadCode\Libs\Images\Selected\Render.image" />
+    <None Include="C:\DeadCode\Libs\Images\Selected\World.image" />
+    <None Include="C:\DeadCode\Libs\Images\Unselected\Combat.image" />
+    <None Include="C:\DeadCode\Libs\Images\Unselected\Configs.image" />
+    <None Include="C:\DeadCode\Libs\Images\Unselected\Console.image" />
+    <None Include="C:\DeadCode\Libs\Images\Unselected\Exploit.image" />
+    <None Include="C:\DeadCode\Libs\Images\Unselected\Friends.image" />
+    <None Include="C:\DeadCode\Libs\Images\Unselected\Movement.image" />
+    <None Include="C:\DeadCode\Libs\Images\Unselected\Other.image" />
+    <None Include="C:\DeadCode\Libs\Images\Unselected\Player.image" />
+    <None Include="C:\DeadCode\Libs\Images\Unselected\Render.image" />
+    <None Include="C:\DeadCode\Libs\Images\Unselected\World.image" />
+    <None Include="C:\DeadCode\Libs\l64.dll" />
+    <None Include="C:\DeadCode\Libs\libcrypto-1_1-x64.dll" />
+    <None Include="C:\DeadCode\Libs\libssl-1_1-x64.dll" />
+    <None Include="C:\DeadCode\Libs\Shaders\antirgb.shader" />
+    <None Include="C:\DeadCode\Libs\Shaders\glitch.shader" />
+    <None Include="C:\DeadCode\Libs\Shaders\round-rect.shader" />
+    <None Include="C:\DeadCode\Libs\Shaders\shadow.shader" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

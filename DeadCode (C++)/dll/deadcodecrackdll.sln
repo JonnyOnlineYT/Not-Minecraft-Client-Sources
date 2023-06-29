@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "deadcodecrackdll", "deadcodecrackdll.vcxproj", "{8327B16A-55BC-44CB-913A-FA7E1056093F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8327B16A-55BC-44CB-913A-FA7E1056093F}.Debug|x64.ActiveCfg = Debug|x64
+		{8327B16A-55BC-44CB-913A-FA7E1056093F}.Debug|x64.Build.0 = Debug|x64
+		{8327B16A-55BC-44CB-913A-FA7E1056093F}.Debug|x86.ActiveCfg = Debug|Win32
+		{8327B16A-55BC-44CB-913A-FA7E1056093F}.Debug|x86.Build.0 = Debug|Win32
+		{8327B16A-55BC-44CB-913A-FA7E1056093F}.Release|x64.ActiveCfg = Release|x64
+		{8327B16A-55BC-44CB-913A-FA7E1056093F}.Release|x64.Build.0 = Release|x64
+		{8327B16A-55BC-44CB-913A-FA7E1056093F}.Release|x86.ActiveCfg = Release|Win32
+		{8327B16A-55BC-44CB-913A-FA7E1056093F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FC91B04-5264-4760-911D-FAD33CD24BE4}
+	EndGlobalSection
+EndGlobal
